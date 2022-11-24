@@ -5,4 +5,4 @@ This project is about building a translator application with AWS Lambda, Chalice
 The process for the image translator will be: An image is read from the S3 bucket via a lambda function. In the next step, this image is passed to the Rekognition service via calling rekognition API. In response, rekognition API returns labels. A function reads the labels and calls Amazon Translate. To speak translated text, Amazon Polly is used with Amazon Translate. 
 </br></br>
 
-<img src="german.png" class="centerImage" height="400"/>
+<img src="translator.png"  height="400"/>
